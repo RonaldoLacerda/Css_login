@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS | LOGIN </title>
+    <style>
+        ::placeholder{
+            text-align: center;
+            padding: 5px;
+        }
+        
+        h1{
+            font-size: 20px;
+            font: arial;          
+        }
+        body{
+            font-family: Arial, sans-serif;
+            padding: 0;
+            background-color: #0f4c75;  /* Cor de fundo personalizada */
+            color: #fff;  /* Cor do texto */
+            text-align: center;
+        }
+
+        .new{
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            cursor: pointer;
+            text-decoration:none; 
+            padding-bottom: 0px;
+            
+        }
+        
+        .new:hover{
+            font-size: 15px;
+        }
+
+        h1{
+            margin-top: 10%;
+            font-style: italic;
+            padding-bottom: 10px;
+            padding-top: 0%;
+        }
+
+        .formulario{
+            border: silver 2px solid;
+            margin: 10px;
+            padding: 50px;
+            height: auto;
+            display: inline-block;
+            position: relative;
+            top: 200px;
+            border-radius: 25px;
+            background-color: rgba(0,255,255,0.2);
+        }
+
+        #input{
+            padding: 15px;
+
+        }
+
+        input.btn{
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            border-color: rgba(0,255,255,0.2);
+            
+        }
+        input.btn:hover{
+            background-color: #2697e2;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="inicio">
+        <div class="formulario">
+            <h1> Login | Bot Logg </h1>
+                <form action="project1.html" method="get">
+                    <input id="input" type="text" name="login" id="login" placeholder="Login" required> <br> <br>
+                    <input id="input" type="password" name="senha" id="senha" placeholder="Senha" required> <br><br>
+                    <input class="btn" type="submit" value="Entrar"> <br><br>
+                    <a href="#" class="new">Esqueceu a senha?</a>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
